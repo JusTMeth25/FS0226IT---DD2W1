@@ -27,7 +27,7 @@
     <main>
         <h2 id="Chi-sono">Chi sono</h2>
         <aside>
-            <h4>Test aside</h4>
+            <strong>Test aside</strong>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem adipisci cupiditate animi, quam
                 similique amet, pariatur, ab ipsam iste voluptatem necessitatibus! Dolor, vel. Ut voluptatum tenetur nam
                 eos adipisci?
@@ -35,7 +35,7 @@
         </aside>
         <!--Blocco immagini-->
         <figure>
-            <img src="assets/img/fotomia.jpeg" alt="fotopersonale" width="200px">
+            <img src="assets/img/fotomia.jpeg" alt="fotopersonale" width="200">
             <figcaption>Questo nella foto sono io</figcaption>
         </figure>
         <p>
@@ -74,6 +74,7 @@
                         <th>Ruolo</th>
                         <th>Azienda/Scuola</th>
                     </tr>
+                    </thead>
                 <tbody>
                     <tr>
                         <td>2026</td>
@@ -91,7 +92,6 @@
                         <td>Engineering - Cybertech</td>
                     </tr>
                 </tbody>
-                </thead>
             </table>
         </section>
         <!--Lista di Progetti-->
@@ -129,15 +129,13 @@
         </p>
         <!--Form di compilazione-->
         <form action="#" method="POST">
-            <label for="name">Nome</label><br />
+            <label for="name">Nome</label><br>
             <input type="text" id="name" name="name" placeholder="Inserisci il tuo nome" required><br>
             <label for="email">Email</label><br>
             <input type="email" id="email" name="email" placeholder="Inserisci la tua email" required>
-
-            <label for="motive">
-                <p>Motivo del contatto</p>
-            </label>
-            <select name="motivodelcontatto" id="motivodelcontatto" required>
+<br><br>
+            <label for="motivodelcontatto">Motivo del contatto</label><br>
+            <select id="motivodelcontatto" name="motivodelcontatto" required>
                 <option value="" selected></option>
                 <option value="offer">Offerta lavorativa</option>
                 <option value="collab">Richiesta di collaborazione</option>
